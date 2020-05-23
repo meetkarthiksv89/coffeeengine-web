@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44b95eda-34b8-404c-b1b9-827bc86d0e9a" name="Default Changelist" comment="" />
+    <list default="true" id="44b95eda-34b8-404c-b1b9-827bc86d0e9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1c03j3UeCuEDOIcLIUnoQo0ZjkH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -36,14 +44,15 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="261" y="196" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.726@0.23.1280.726" timestamp="1589804950630" />
-    <state x="139" y="25" key="SettingsEditor" timestamp="1590254871313">
+    <state x="139" y="25" key="SettingsEditor" timestamp="1590262135482">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state x="139" y="25" key="SettingsEditor/0.23.1280.727@0.23.1280.727" timestamp="1590254871313" />
-    <state x="332" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1589797317476">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state x="139" y="25" key="SettingsEditor/0.23.1280.727@0.23.1280.727" timestamp="1590262135482" />
+    <state x="332" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1590261940923">
+      <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="332" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.726@0.23.1280.726" timestamp="1589797317476" />
+    <state x="332" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.727@0.23.1280.727" timestamp="1590261940923" />
     <state x="305" y="73" width="670" height="676" key="search.everywhere.popup" timestamp="1589791692698">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
