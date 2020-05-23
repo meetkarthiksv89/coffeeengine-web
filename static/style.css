@@ -1,0 +1,69 @@
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+.card-body {
+    text-align: start;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.book-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-border {
+    border-color: #990000;
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+body
+{
+    background-color: black; /* The page background will be black */
+    color: white; /* The page text will be white */
+}
+.header {
+  padding: 10px;
+  text-align: left;
+  background: #241401;
+  color: yellow;
+  font-size: 30px;
+  }
+
+ img {
+  float:right;
+  max-width: 20%;
+  max-height:10%;
+}
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+body
+{
+    background-color: black;
+    color: white;
+}
