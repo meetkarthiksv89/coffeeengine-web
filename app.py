@@ -8,7 +8,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 import requests
 
 app = Flask(__name__)
-
+app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
 
 # Configure session to use filesystem
 app.config["SESSION_PERMANENT"] = False
@@ -20,4 +20,4 @@ Session(app)
 def index():
     """ Show search box """
 
-    return render_template("layout.html")
+    return render_template("question.html")
