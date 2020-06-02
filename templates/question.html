@@ -8,6 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="{{url_for('static',filename='coffee.js')}}"></script>
+<!--    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">-->
     <script src="https://unpkg.com/mustache@latest"></script>
     <title>My Website</title>
 </head>
@@ -15,11 +16,12 @@
 .header {
   background: #241401;
   color: yellow;
+  width:100%;
   }
   img {
   text-align:center;
   max-width: 10%;
-  max-height:5%;
+  max-height:5%;;
 }
   body {
   background-color: #FFB836;
@@ -27,12 +29,30 @@
   }
   .center {
   display: block;
+  margin-left: 40%;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom:auto;
+  width: 50%;
+  }
+  #previous{
+  background-color:transparent;
+  float:left;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  margin-top: auto;
+  margin-bottom:auto;
+  text-align:left;
+  text-align:center;
+<!--  width:50%;-->
+  max-width: 10%;
+  max-height:5%;
+  }
 }
-
-
+.effect{
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
 h1{
   font-weight: 300;
   margin: 0px;
@@ -44,15 +64,19 @@ h1{
 .question{
   font-size: 30px;
   margin-bottom: 10px;
+  text-align:left;
+
 }
 .answers {
   margin-bottom: 20px;
   text-align: left;
   display: inline-block;
+  overflow: clip;
 }
 .answers label{
   display: block;
   margin-bottom: 10px;
+  overflow: clip;
 }
 button{
   font-family: 'Work Sans', sans-serif;
@@ -66,8 +90,14 @@ button{
 	margin-bottom: 20px;
 	transition-duration: 0.4s;
     cursor: pointer;
+    text-align: center;
+    overflow:visible;
 }
 .press:hover{
+	background-color: #241401;
+    color: yellow;
+}
+.effect:hover{
 	background-color: #241401;
     color: yellow;
 }
@@ -75,52 +105,87 @@ button{
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 100%;
+<!--  width: 100%;-->
   z-index: 1;
   opacity: 0;
   transition: opacity 0.5s;
+  text-align:center;
+  display: block;
+<!--  margin-left: auto;-->
+<!--  margin-right: auto;-->
+  width: 50%;
+overflow: clip;
+
 }
 .active-slide{
   opacity: 1;
   z-index: 2;
+overflow: clip;
 }
 .quiz-container{
+
   position: relative;
-  height: 350px;
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
+  height: 100%;
+  width:75%;
+  margin-bottom: 200px;
+  margin-left:30%;
+  text-align: center;
+  overflow: clip;
+
+
 }
 .answers{
-grid-row-start: 1;
-    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0px 0px
+  grid-column-gap: 10px;
+grid-template-rows: auto;
+text-align: center;
+grid-auto-flow: row;
+grid-auto-row: 300px 100px;
+<!--	margin-left: 10px;-->
+<!--	margin-right: 10px;-->
+	overflow: visible;
+	 text-overflow: ellipsis;
+    white-space: nowrap
+    text-align:left;
 }
 .press{
-    font-family: 'Work Sans', sans-serif;
-    border: 2px solid black
-	font-size: 22px;
+font-family: 'Work Sans', sans-serif;
+    border: 2px solid black;
+	font-size: 15px;
 	background-color:#FFB836;
 	border-radius: 10px;
-	padding: 20px;
+	padding: 19px;
+	width: 93%;
 	cursor: pointer;
-	grid-row-start: 1;
-    grid-row-end: 3;
     transition-duration: 0.4s;
     cursor: pointer;
+    text-align: center;
+<!--    overflow:visible;-->
+
 }
+.number-container{
+margin-right:37%
+}
+
+
 </style>
 <body>
 <div class="header">
-    <img src="static/logo.png" class="center">
+    <button class="effect" id="previous" >⬅</button>
+<!--    <a class="icon-arrow-left" id="previous" title="back"></a>-->
+    <a href="https://www.pandurangacoffee.com">
+        <img src="static/logo.png" class="center" alt="Visit" style="border:visible;">
+    </a>
 </div>
-<div class="number-container">
+<div class="number-container" style="margin-top:2%">
     <div id="number">{{currentSlides}} of {{amount}}</div>
 </div>
-<div class="quiz-container">
+<div class="quiz-container" style="margin-top:2%">
         <div id="quiz"></div>
 </div>
-<button id="previous">Previous Question</button>
+<!--<button id="previous">Previous Question</button>-->
 <!--<button id="next">Next Question</button>-->
 <button id="submit">Submit Quiz</button>
 <div id="results"></div>

@@ -1,33 +1,29 @@
 [{
         "question": "What roast levels do you typically enjoy?",
-        "options": ["Light Roast", "Medium Roast", "Dark Roast"]
+        "answers": {"Light Roast":"Light Roast", "Medium Roast": "Medium Roast", "Dark Roast":"Dark Roast"}
     },
     {
         "question": "How do you usually make coffee at home?",
-        "options": ["Moka Pot", "French Press", "Sounth Indian Filter Coffee"]
+        "answers": {"Moka Pot": "Moka Pot", "French Press": "French Press", "South Indian Filter Coffee" : "Sounth Indian Filter Coffee"}
     },
     {
         "question": "How do you like your coffee to taste?",
-        "options": ["Classic and Traditional", "Hints of something different", "Surprising and unconventional"]
+        "answers": {"Classic and Traditional": "Classic and Traditional","Hints of something different":"Hints of something different", "Surprising and unconventional":"Surprising and unconventional"}
     },
     {
         "question": "How do you like your coffee?",
-        "options": ["Medium", "Strong"]
+        "answers": {"Medium": "Medium", "Strong": "Strong"}
     },
     {
         "question": "Where do you intend to use the coffee ?",
-        "options": ["At my home", "Restaurant", "For catering"]
+        "answers": {"At my home": "At my home","Restaurant": "Restaurant","For catering": "For catering"}
     },
     {
         "question": "Would you like to try high altitude coffee",
-        "options": ["Yes","No"]
+        "answers": {"Yes":"High","No":"Low"}
     },
     {
-        "question": "Would you like to try high altitude coffee",
-        "options": ["Light Roast", "Medium Roast", "Dark Roast"]
-    },
-    {
-        "question": "Would you like to coffee with chicory",
-        "options": ["Yes", "No"]
+        "question": "Would you like to coffee with chicory?",
+        "answers": {"Yes":"chicory", "No":"no chicory"}
     }
 ]

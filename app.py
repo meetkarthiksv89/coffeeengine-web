@@ -8,7 +8,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 import requests
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
+app.config["SECRET_KEY"] = "new key"
 
 # Configure session to use filesystem
 app.config["SESSION_PERMANENT"] = False

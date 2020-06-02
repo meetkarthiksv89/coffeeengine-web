@@ -17,7 +17,7 @@ $(function(){
           // ...add an HTML button
           answers.push(
             `<label>
-              <input class="press" type="button" value="${letter}"  style="margin-left: 50px;">
+              <input class="press" type="button" value="${letter}" >
             </label>`
           );
         }
@@ -115,7 +115,7 @@ $(function(){
         "answers": {"Yes":"High","No":"Low"}
     },
     {
-        "question": "Would you like to coffee with chicory",
+        "question": "Would you like to coffee with chicory?",
         "answers": {"Yes":"chicory", "No":"no chicory"}
     }
 ];
