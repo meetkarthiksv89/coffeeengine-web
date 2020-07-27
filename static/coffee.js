@@ -1,6 +1,8 @@
 $(function(){
   // Functions
   function buildQuiz(){
+     window.arr=[];
+     window.newarr = [];
     // variable to store the HTML output
     const output = [];
 
@@ -10,6 +12,7 @@ $(function(){
 
         // variable to store the list of possible answers
         const answers = [];
+        var count = 0;
 
         // and for each available answer...
         for(letter in currentQuestion.answers){
@@ -17,8 +20,12 @@ $(function(){
           // ...add an HTML button
           answers.push(
             `<label>
-              <input class="press" type="button" value="${letter}" >
+            <span style="white-space:nowrap">
+              <input name="question${questionNumber}" id="q&a" value="${letter}" type="radio" style="z-index: 0; position:absolute;visibility:hidden;">
+              <div value="${letter}" class="press">${letter}</div>
+            </span>
             </label>`
+
           );
         }
 
@@ -39,8 +46,24 @@ $(function(){
   function showResults(){
 
     // gather answer containers from our quiz
-    const nodesArray = Array.prototype.slice.call(quizContainer.querySelectorAll('.answers'));
-    resultsContainer.innerHTML = `${nodesArray}`;
+    const answerContainers = quizContainer.querySelectorAll('.answers');
+    console.log(answerContainers)
+    myQuestions.forEach( (currentQuestion, questionNumber) => {
+
+      // find selected answer
+      const answerContainer = answerContainers[questionNumber];
+      console.log(answerContainer)
+      const selector = `input[name=question${questionNumber}]:checked`;
+      console.log(selector)
+      window.userAnswer = (answerContainer.querySelector(selector) || {}).value;
+      console.log(userAnswer)
+      arr.push(userAnswer)
+     });
+//    resultsContainer.innerHTML = `${arr}`;
+     new_arr = JSON.stringify(arr);
+     console.log(new_arr);
+      $.post("/test", new_arr);
+
   }
 
   function showSlide(n) {
@@ -65,9 +88,9 @@ $(function(){
     }
     if(currentSlide === slides.length-1){
 //      nextButton.style.display = 'none';
-      submitButton.style.display = 'inline-block';
-    }
-    else{
+        $('.press').on('click',function(){
+            showResults()})
+     } else{
 //      nextButton.style.display = 'inline-block';
       submitButton.style.display = 'none';
     }
@@ -75,7 +98,6 @@ $(function(){
 
   function showNextSlide() {
   if (currentSlide != (slides.length-1)){
-
         showSlide(currentSlide + 1);
         console.log(true);
        }
@@ -83,6 +105,9 @@ $(function(){
 
   function showPreviousSlide() {
     showSlide(currentSlide - 1);
+    arr.pop()
+    arr.pop()
+    console.log(arr)
   }
   // Variables
   const quizContainer = document.getElementById('quiz');
@@ -141,6 +166,11 @@ $(function(){
 //  nextButton.addEventListener("click", showNextSlide);
     if (currentSlide != (slides.length-1)){
         $('.press').on('click',function(){
+        window.selectdel = document.getElementById("q&a").value
+        newarr.push(selectdel)
+        console.log(selectdel)
+        console.log(newarr)
+
         showNextSlide();
     });
     }
