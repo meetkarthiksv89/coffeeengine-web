@@ -10,6 +10,8 @@ requests = "*"
 wtforms = "*"
 flask_assets = "*"
 flask_static_compress = "*"
+coremltools = "*"
+Flask-Session = "*"
 
 [dev-packages]
 
