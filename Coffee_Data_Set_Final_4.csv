@@ -1,33 +1,449 @@
-Product ,Text,,,,,,
-Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant,,,,,,
-Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant,,,,,,
-Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering,,,,,,
-Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering,,,,,,
-Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant,,,,,,
-Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home,,,,,,
-Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering,,,,,,
-Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering,,,,,,
-Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering,,,,,,
-Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant,,,,,,
-Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home,,,,,,
-Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home,,,,,,
-Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home,,,,,,
-Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home,,,,,,
-Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home,,,,,,
-Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home,,,,,,
-Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home,,,,,,
-Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home,,,,,,
-French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant,,,,,,
-French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering,,,,,,
-French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant,,,,,,
-French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering,,,,,,
-French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant,,,,,,
-Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home,,,,,,
-Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home,,,,,,
-Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home,,,,,,
-Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home,,,,,,
-Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home,,,,,,
-Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant,,,,,,
-Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant,,,,,,
-Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering,,,,,,
-Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant,,,,,,
+Product,Consumer complaint narrative
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Restaurant
+Aroma Gold,Medium Roast	Moka Pot	Different	Strong	Ground	High	Catering
+Aroma Gold,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	High	Catering
+Aroma Gold,Medium Roast	French Press	Traditional	Strong	Whole beans	High	Restaurant
+Aroma Gold,Dark Roast	Moka Pot	Unconventional 	Strong	Whole beans	High	Home
+Aroma Gold,Medium Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	South Indian Filter	Surprising	Strong	Ground	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Catering
+Aroma Gold,Dark Roast	French Press	Different	Strong	Whole beans	High	Restaurant
+Aroma Gold,Light Roast	French Press	Surprising	Medium	Ground	High	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	French Press	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Medium Roast	Moka Pot	Traditional	Medium	Whole beans	Regular	Home
+Brown Gold,Medium Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Medium	Ground	Regular	Home
+Brown Gold,Light Roast	South Indian Filter	Traditional	Light	Ground	Regular	Home
+Brown Gold,Light Roast	French Press	Surprising	Medium	Ground	Regular	Home
+French Blend,Dark Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Restaurant
+French Blend,Medium Roast	South Indian Filter	Traditional	Strong	Whole beans	Regular	Catering
+French Blend,Dark Roast	Moka Pot	Surprising	Strong	Whole beans	Regular	Restaurant
+French Blend,Dark Roast	Moka Pot	Different	Strong	Ground	Regular	Catering
+French Blend,Medium Roast 	Moka Pot	Traditional	Strong	Whole beans	Regular	Restaurant
+Grand Aroma,Medium Roast	Moka Pot	Surprising	Medium	Ground	High	Home
+Grand Aroma,Medium Roast	South Indian Filter	Unconventional 	Medium	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Traditional	Medium	Ground	High	Home
+Grand Aroma,Light Roast	French Press	Surprising	Light	Ground	High	Home
+Grand Aroma,Light Roast	Moka Pot	Traditional	Light	Whole beans	High	Home
+Grand Aroma,Medium Roast	French Press	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant
+Grand Aroma,Medium Roast	South Indian Filter	Surprising	Medium	Ground	High	Catering
+Grand Aroma,Light Roast	South Indian Filter	Surprising	Medium	Ground	High	Restaurant

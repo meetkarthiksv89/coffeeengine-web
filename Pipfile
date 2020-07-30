@@ -12,6 +12,9 @@ flask_assets = "*"
 flask_static_compress = "*"
 coremltools = "*"
 Flask-Session = "*"
+scikit-learn = "*"
+pandas = "*"
+numpy = "*"
 
 [dev-packages]
 
