@@ -175,11 +175,11 @@ def test():
         if labelling == "['Aroma Gold']":
             webbrowser.open_new_tab("https://pandurangacoffee.com/collections/frontpage/products/aroma-gold")
         elif labelling == "['Brown Gold']":
-            webbrowser.open_new_tab("https://pandurangacoffe.com/collections/frontpage/products/brown-gold")
+            webbrowser.open_new_tab("https://pandurangacoffee.com/collections/frontpage/products/brown-gold")
         elif labelling == "['French Blend']":
             webbrowser.open_new_tab('https://pandurangacoffee.com/collections/frontpage/products/french-blend')
         elif labelling == "['Grand Aroma']":
-            webbrowser.open_new_tab('https://pandurangacoffee.com/collections/frontpage/products/grand-aroma')
+            webbrowser.open_new_tab('https://pandurangacoffee.com/collections/frontpage/products/brown-gold')
 
 
     Process(target=loop_a).start()
