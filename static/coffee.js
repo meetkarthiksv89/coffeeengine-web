@@ -63,6 +63,7 @@ $(function(){
      new_arr = JSON.stringify(arr);
      console.log(new_arr);
       $.post("/test", new_arr);
+      window.location = "/test";
 
   }
 

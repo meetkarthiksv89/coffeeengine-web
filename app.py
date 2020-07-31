@@ -3,8 +3,8 @@ from flask_session import Session
 from multiprocessing import Process
 import json
 import webbrowser
-import coremltools
-from urllib.parse import urlparse, urlunparse
+import jinja2
+
 
 
 app = Flask(__name__)
@@ -160,30 +160,35 @@ def index():
 
 @app.route('/test', methods=['GET','POST'])
 def test():
-    data = request.get_json(force=True)
+    data = request.get_json(force=False)
+    print("First step accomplished")
     dataset=format(data)
+    print(dataset , "step1")
     model = LinearSVC().fit(tfidf_vectorizer_vectors, y_train)
+    print("got this far")
     new_complaint = dataset
+    print(new_complaint, "step2")
     new_complaints = ''.join(new_complaint)
-    print(new_complaints)
+    print(new_complaints, "step3")
     values =model.predict(fitted_vectorizer.transform([new_complaints]))
-    print(values)
-    labelling=str(values)
-    print(labelling)
+    print(values, "step4")
+    values2=" ".join(str(x) for x in values)
+    labelling=str(values2)
+    print(labelling, "step5")
+    #
+    # if labelling == "['Aroma Gold']":
+    #         return(redirect("https://www.google.co.uk"))
+    # elif labelling == "['Brown Gold']":
+    #         return (redirect("https://www.google.co.uk"))
+    #         # webbrowser.open_new_tab("https://pandurangacoffe.com/collections/frontpage/products/brown-gold")
+    # elif labelling == "['French Blend']":
+    #         return (redirect("https://www.google.co.uk"))
+    # elif labelling == "['Grand Aroma']":
+    #         return (redirect("https://www.google.co.uk"))
+    print("Reached end")
+    return render_template('response.html',labelling=labelling)
 
-    def loop_a():
-        if labelling == "['Aroma Gold']":
-            webbrowser.open_new_tab("https://pandurangacoffee.com/collections/frontpage/products/aroma-gold")
-        elif labelling == "['Brown Gold']":
-            webbrowser.open_new_tab("https://pandurangacoffee.com/collections/frontpage/products/brown-gold")
-        elif labelling == "['French Blend']":
-            webbrowser.open_new_tab('https://pandurangacoffee.com/collections/frontpage/products/french-blend')
-        elif labelling == "['Grand Aroma']":
-            webbrowser.open_new_tab('https://pandurangacoffee.com/collections/frontpage/products/brown-gold')
 
-
-    Process(target=loop_a).start()
-    return "success"
 
 
 

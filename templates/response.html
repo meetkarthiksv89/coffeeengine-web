@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="{{url_for('static',filename='coffee.js')}}"></script>
+<!--    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">-->
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script>
+    var someJavaScriptVar = '{{ labelling }}';
+    console.log("Reached Checkpoint");
+    console.log(someJavaScriptVar);
+    var delayInMilliseconds = 4000; //1 second
+
+    setTimeout(function() {
+    if (someJavaScriptVar = "Grand Aroma") {
+        console.log("1")
+        window.location = "https://pandurangacoffee.com/collections/frontpage/products/grand-aroma";
+    } else if (someJavaScriptVar = "French Blend") {
+        console.log("1")
+        window.location = "https://pandurangacoffe.com/collections/frontpage/products/brown-gold";
+    } else if (someJavaScriptVar = "Aroma Gold") {
+        console.log("1")
+        window.location = "https://pandurangacoffee.com/collections/frontpage/products/aroma-gold";
+    } else if (someJavaScriptVar = "Brown Gold") {
+        console.log("1")
+        window.location = "https://pandurangacoffee.com/collections/frontpage/products/brown-gold";
+    }
+    }, delayInMilliseconds);
+
+
+    </script>
+    <title>My Website</title>
+</head>
+<style>
+.header {
+  background: #241401;
+  color: yellow;
+  min-width:100%;
+  }
+  img {
+  text-align:center;
+  max-width: 100px;
+  max-height:90px;
+}
+  body {
+  background-color: #FFB836;
+  text-align: center;
+  }
+  .center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom:auto;
+  width: 50%;
+  }
+  #previous{
+  background-color:transparent;
+  float:left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom:auto;
+  text-align:left;
+  text-align:center;
+<!--  width:50%;-->
+  max-width: 10%;
+  max-height:5%;
+  }
+}
+.effect{
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+h1{
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #444;
+  color: #fff;
+}
+.question{
+  font-size: 4vw;
+  margin-bottom: 10px;
+  text-align:left;
+
+
+}
+  .center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom:auto;
+  width: 50%;
+ }
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+
+<!--  display: inline-block;-->
+<!--  overflow: visible;-->
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+<!--  overflow: visible;-->
+}
+button{
+  font-family: 'Work Sans', sans-serif;
+	font-size: 22px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+<!--    overflow:visible;-->
+}
+.press:hover{
+	background-color: #241401;
+    color: yellow;
+}
+.effect:hover{
+	background-color: #241401;
+    color: yellow;
+}
+.slide{
+  position: absolute;
+<!--  left: 0px;-->
+<!--  top: 0px;-->
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+  text-align:center;
+<!--  display: inline-block;-->
+<!--  margin-left: auto;-->
+<!--  margin-right: auto;-->
+<!--  width: 75%;-->
+<!--overflow: visible;-->
+
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+<!--overflow: visible;-->
+
+}
+
+.answers{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(200px, 1fr));
+<!--    grid-auto-rows: minmax(100px, auto);-->
+text-align: center;
+oveflow:visible;
+	 text-overflow: ellipsis;
+    white-space: nowrap
+<!--    text-align:left;-->
+<!--display: grid;-->
+<!--grid-template-columns: 1fr 1fr ;-->
+<!--  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));-->
+<!--  grid-auto-rows: minmax(100px, auto);-->
+  grid-auto-flow: dense;
+}
+.answers> * {
+  padding: 1vw;
+
+  border-radius: 5px;
+}
+
+<!--.answers > *:nth-child(2n) {-->
+<!--  grid-row: auto / span 1;-->
+<!--}-->
+
+.answers > *:nth-child(2n+1) {
+  grid-column: auto / span 2;
+}
+
+.press{
+font-family: 'Work Sans', sans-serif;
+    border: 1px solid black;
+	font-size: 2vw;
+	background-color:#FFB836;
+	padding: 23px;
+	width:20vw;
+	cursor: pointer;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    white-space: normal;
+<!--    overflow:visible;-->
+overflow: auto;
+
+}
+.number-container{
+margin-right:47%
+}
+
+
+</style>
+<body>
+<div class="header">
+    <a href="https://www.pandurangacoffee.com">
+        <img src="static/logo.png" class="center" alt="Visit" style="border:visible;">
+    </a>
+</div>
+<h1>We believe you should choose the {{ labelling }}</h1>
+</body>
+</html>
