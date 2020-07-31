@@ -112,7 +112,6 @@ venvdotapp==19.7.1
 virtualenv==20.0.21
 virtualenv-clone==0.5.4
 wcwidth==0.1.9
-Werkzeug==1.0.1
 whitenoise==3.2.1
 winmltools==1.5.1
 wrapt==1.11.0

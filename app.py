@@ -1,8 +1,10 @@
-from flask import Flask, session, redirect, render_template, request, jsonify, flash
+from flask import Flask, session, redirect, render_template, request, jsonify, flash, url_for
 from flask_session import Session
+from multiprocessing import Process
 import json
 import webbrowser
 import coremltools
+from urllib.parse import urlparse, urlunparse
 
 
 app = Flask(__name__)
@@ -14,8 +16,14 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 import pandas as pd
 import numpy as np
+from scipy.stats import randint
+import seaborn as sns # used for plot interactive graph.
+import matplotlib.pyplot as plt
+import seaborn as sns
+from io import StringIO
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_selection import chi2
+from IPython.display import display
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
@@ -168,20 +176,21 @@ def test():
     print(values)
     labelling=str(values)
     print(labelling)
-    if labelling == "['Aroma Gold']":
-        print("success1")
-        return webbrowser.open_new_tab('https://pandurangacoffee.com/collections/frontpage/products/aroma-gold')
-        return "success"
-    elif labelling == "['Brown Gold']":
-        print("success2")
-        return webbrowser.open_new_tab('https://pandurangacoffee.com/collections/frontpage/products/brown-gold')
-        return "success"
-    elif labelling == "['French Blend']":
-        print("success3")
-        return webbrowser.open_new_tab('https://pandurangacoffee.com/collections/frontpage/products/french-blend')
-        return "success"
-    elif labelling == "['Grand Aroma']":
-        return webbrowser.open_new_tab('https://pandurangacoffee.com/collections/frontpage/products/french-blend')
-        return "success"
+
+    def loop_a():
+        if labelling == "['Aroma Gold']":
+            webbrowser.open_new_tab("https://pandurangacoffee.com/collections/frontpage/products/aroma-gold")
+        elif labelling == "['Brown Gold']":
+            webbrowser.open_new_tab("https://pandurangacoffe.com/collections/frontpage/products/brown-gold")
+        elif labelling == "['French Blend']":
+            webbrowser.open_new_tab('https://pandurangacoffee.com/collections/frontpage/products/french-blend')
+        elif labelling == "['Grand Aroma']":
+            webbrowser.open_new_tab('https://pandurangacoffee.com/collections/frontpage/products/grand-aroma')
+
+
+    Process(target=loop_a).start()
+    return "success"
+
+
 
 
