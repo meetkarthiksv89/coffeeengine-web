@@ -7,27 +7,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="{{url_for('static',filename='coffee.js')}}"></script>
 <!--    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">-->
     <script src="https://unpkg.com/mustache@latest"></script>
+    <meta charset="utf-8">
+    <title>Panduranga Coffee Engine - Results</title>
+    <link rel="shortcut icon" href="images/logo.png" />
+    <meta name="author" content="PandurangaCoffeeEngine">
+    <meta name="keywords" content="Coffee Engine, Prediction">
+    <meta name="description" content="Panduranga Coffe Engine - just enter your tastes and await your desiired coffee.">
     <script>
     var someJavaScriptVar = '{{ labelling }}';
     console.log("Reached Checkpoint");
+    window.val1 = "Grand Aroma"
+    window.val2 = "French Blend"
+    window.val3 = "Brown Gold"
+    window.val4 = "Aroma Gold"
     console.log(someJavaScriptVar);
     var delayInMilliseconds = 1000; //1 second
 
     setTimeout(function() {
-    if (someJavaScriptVar = "Grand Aroma") {
-        console.log("1")
+    if (someJavaScriptVar == val1) {
+        console.log(val1)
         window.location = "https://pandurangacoffee.com/collections/frontpage/products/grand-aroma";
-    } else if (someJavaScriptVar = "French Blend") {
-        console.log("1")
-        window.location = "https://pandurangacoffe.com/collections/frontpage/products/brown-gold";
-    } else if (someJavaScriptVar = "Aroma Gold") {
-        console.log("1")
+    } else if (someJavaScriptVar == val2) {
+        console.log(val2)
+        window.location = "https://pandurangacoffee.com/collections/frontpage/products/french-blend";
+    } else if (someJavaScriptVar == val4) {
+        console.log(val4)
         window.location = "https://pandurangacoffee.com/collections/frontpage/products/aroma-gold";
-    } else if (someJavaScriptVar = "Brown Gold") {
-        console.log("1")
+    } else if (someJavaScriptVar == val3) {
+        console.log(val3)
         window.location = "https://pandurangacoffee.com/collections/frontpage/products/brown-gold";
     }
     }, delayInMilliseconds);

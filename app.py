@@ -152,6 +152,8 @@ fitted_vectorizer = tfidf.fit(X_train)
 tfidf_vectorizer_vectors = fitted_vectorizer.transform(X_train)
 
 
+
+
 @app.route("/")
 def index():
     """ Show search box """
@@ -160,20 +162,49 @@ def index():
 
 @app.route('/test', methods=['GET','POST'])
 def test():
-    data = request.get_json(force=False)
-    print("First step accomplished")
-    dataset=format(data)
-    print(dataset , "step1")
+    if request.method == 'GET':
+        print("get")
+    if request.method == 'POST':
+        print("post")
+    global data
+
+    data = request.get_json(force=True)
+    print(data)
+    # dataset=format(data)
+    # model = LinearSVC().fit(tfidf_vectorizer_vectors, y_train)
+    # new_complaint = dataset
+    # new_complaints = ''.join(new_complaint)
+    # print(new_complaints)
+    # values =model.predict(fitted_vectorizer.transform([new_complaints]))
+    # print(values)
+    # labelling=str(values)
+    # print(labelling)
+    # return labelling
+    # #
+    # # if labelling == "['Aroma Gold']":
+    # #         return(redirect("https://www.google.co.uk"))
+    # # elif labelling == "['Brown Gold']":
+    # #         return (redirect("https://www.google.co.uk"))
+    # #         # webbrowser.open_new_tab("https://pandurangacoffe.com/collections/frontpage/products/brown-gold")
+    # # elif labelling == "['French Blend']":
+    # #         return (redirect("https://www.google.co.uk"))
+    # # elif labelling == "['Grand Aroma']":
+    # #         return (redirect("https://www.google.co.uk"))
+    # return render_template('response.html',labelling=labelling)
+    return "success"
+
+@app.route('/result', methods=['GET','POST'])
+def tester():
     model = LinearSVC().fit(tfidf_vectorizer_vectors, y_train)
     print("got this far")
-    new_complaint = dataset
+    new_complaint = str(data)
     print(new_complaint, "step2")
     new_complaints = ''.join(new_complaint)
     print(new_complaints, "step3")
-    values =model.predict(fitted_vectorizer.transform([new_complaints]))
+    values = model.predict(fitted_vectorizer.transform([new_complaints]))
     print(values, "step4")
-    values2=" ".join(str(x) for x in values)
-    labelling=str(values2)
+    values2 = " ".join(str(x) for x in values)
+    labelling = str(values2)
     print(labelling, "step5")
     #
     # if labelling == "['Aroma Gold']":
@@ -185,9 +216,7 @@ def test():
     #         return (redirect("https://www.google.co.uk"))
     # elif labelling == "['Grand Aroma']":
     #         return (redirect("https://www.google.co.uk"))
-    print("Reached end")
     return render_template('response.html',labelling=labelling)
-
 
 
 

@@ -10,7 +10,13 @@
     <script src="{{url_for('static',filename='coffee.js')}}"></script>
 <!--    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">-->
     <script src="https://unpkg.com/mustache@latest"></script>
-    <title>My Website</title>
+    <meta charset="utf-8">
+    <title>Panduranga Coffee Engine</title>
+    <link rel="shortcut icon" href="images/logo.png" />
+    <meta name="author" content="PandurangaCoffeeEngine">
+    <meta name="keywords" content="Coffee Engine, Prediction">
+    <meta name="description" content="Panduranga Coffe Engine - just enter your tastes and await your desired coffee.">
+
 </head>
 <style>
 .header {
@@ -154,6 +160,7 @@ button{
     grid-template-columns: repeat( auto-fill, minmax(200px, 1fr));
 <!--    grid-auto-rows: minmax(100px, auto);-->
 text-align: center;
+    position:center;
 oveflow:visible;
 	 text-overflow: ellipsis;
     white-space: nowrap
@@ -184,12 +191,14 @@ font-family: 'Work Sans', sans-serif;
 	font-size: 2vw;
 	background-color:#FFB836;
 	padding: 23px;
-	width:20vw;
+	width:24vw;
 	cursor: pointer;
     transition-duration: 0.4s;
     cursor: pointer;
+    position: center;
     text-align: center;
     white-space: normal;
+    margin-left: auto
 <!--    overflow:visible;-->
 overflow: auto;
 
@@ -202,7 +211,8 @@ margin-right:47%
 </style>
 <body>
 <div class="header">
-    <button class="effect" id="previous" >⬅</button>
+<!--    <button class="effect" id="previous" >⬅</button>-->
+    <input type="image" class="effect" id="previous" alt="back" src="/static/plain-left-white-arrow-hi.png" style="height:35px; margin-top: 7px ">
 <!--    <a class="icon-arrow-left" id="previous" title="back"></a>-->
     <a href="https://www.pandurangacoffee.com">
         <img src="static/logo.png" class="center" alt="Visit" style="border:visible;">
@@ -220,6 +230,7 @@ margin-right:47%
 <!--<button id="next">Next Question</button>-->
 <button id="submit" style="margin-top: 75%">Submit Quiz</button>
 <div id="results"></div>
+
 
 </body>
 </html>
