@@ -6,7 +6,6 @@ from multiprocessing import Process
 import json
 import webbrowser
 import jinja2
-global result
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "new key"
@@ -166,7 +165,7 @@ def test():
     #     print("get")
     # if request.method == 'POST':
     #     print("post")
-
+    global result
     result = request.get_json(force=True)
     print(result)
     # print(data)
