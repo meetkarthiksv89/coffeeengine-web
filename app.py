@@ -34,17 +34,17 @@ df.head(2).T
 print(df.head(2).T)
 # Create a new dataframe with two columns
 # Create a new dataframe with two columns
-df1 = df[['Product', 'Consumer complaint narrative']].copy()
+df1 = df[['Product', 'Features']].copy()
 
 # Remove missing values (NaN)
-df1 = df1[pd.notnull(df1['Consumer complaint narrative'])]
+df1 = df1[pd.notnull(df1['Features'])]
 
 # Renaming second column for a simpler name
-df1.columns = ['Product', 'Consumer_complaint']
+df1.columns = ['Product', 'Features_key']
 
 df1.shape
 # Percentage of complaints with text
-total = df1['Consumer_complaint'].notnull().sum()
+total = df1['Features_key'].notnull().sum()
 round((total/len(df)*100),1)
 pd.DataFrame(df.Product.unique()).values
 # Because the computation is time consuming (in terms of CPU), the data was sampled
@@ -68,7 +68,7 @@ tfidf = TfidfVectorizer(sublinear_tf=True, min_df=5,
                         stop_words='english')
 
 # We transform each complaint into a vector
-features = tfidf.fit_transform(df2.Consumer_complaint).toarray()
+features = tfidf.fit_transform(df2.Features_key).toarray()
 
 labels = df2.category_id
 
@@ -84,7 +84,7 @@ for Product, category_id in sorted(category_to_id.items()):
   print("\n==> %s:" %(Product))
   print("  * Most Correlated Unigrams are: %s" %(', '.join(unigrams[-N:])))
   print("  * Most Correlated Bigrams are: %s" %(', '.join(bigrams[-N:])))
-  X = df2['Consumer_complaint']  # Collection of documents
+  X = df2['Features_key']  # Collection of documents
   y = df2['Product']  # Target or the labels we want to predict (i.e., the 13 different complaints of products)
 
   X_train, X_test, y_train, y_test = train_test_split(X, y,
@@ -169,10 +169,10 @@ def test():
     print(data)
     # dataset=format(data)
     # model = LinearSVC().fit(tfidf_vectorizer_vectors, y_train)
-    # new_complaint = dataset
-    # new_complaints = ''.join(new_complaint)
-    # print(new_complaints)
-    # values =model.predict(fitted_vectorizer.transform([new_complaints]))
+    # inputted = dataset
+    # inputteds = ''.join(inputted)
+    # print(inputteds)
+    # values =model.predict(fitted_vectorizer.transform([inputteds]))
     # print(values)
     # labelling=str(values)
     # print(labelling)
@@ -194,11 +194,11 @@ def test():
 def tester():
     model = LinearSVC().fit(tfidf_vectorizer_vectors, y_train)
     print("got this far")
-    new_complaint = str(data)
-    print(new_complaint, "step2")
-    new_complaints = ''.join(new_complaint)
-    print(new_complaints, "step3")
-    values = model.predict(fitted_vectorizer.transform([new_complaints]))
+    inputted = str(data)
+    print(inputted, "step2")
+    inputteds = ''.join(inputted)
+    print(inputteds, "step3")
+    values = model.predict(fitted_vectorizer.transform([inputteds]))
     print(values, "step4")
     values2 = " ".join(str(x) for x in values)
     labelling = str(values2)
