@@ -25,6 +25,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn import metrics
 #import warnings
 #warnings.filterwarnings("ignore", category=FutureWarning)
+data = "sample"
 df = pd.read_csv('Coffee_Data_Set_Final_4.csv')
 print(df)
 df.shape
