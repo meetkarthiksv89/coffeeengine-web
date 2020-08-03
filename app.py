@@ -4,12 +4,9 @@ from multiprocessing import Process
 import json
 import webbrowser
 import jinja2
-
-
-
+global data
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "new key"
-
 # Configure session to use filesystem
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
@@ -166,7 +163,6 @@ def test():
         print("get")
     if request.method == 'POST':
         print("post")
-    global data
 
     data = request.get_json(force=True)
     print(data)

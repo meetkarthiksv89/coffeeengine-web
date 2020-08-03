@@ -4,9 +4,6 @@
     <list default="true" id="44b95eda-34b8-404c-b1b9-827bc86d0e9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/coffee.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/coffee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/response.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/response.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +59,10 @@
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="139" y="25" key="SettingsEditor/0.23.1280.727@0.23.1280.727" timestamp="1590262135482" />
-    <state x="332" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1594585181071">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state x="332" y="217" key="com.intellij.ide.util.TipDialog" timestamp="1596467689630">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state x="332" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.723@0.23.1280.723" timestamp="1596467689630" />
     <state x="332" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.726@0.23.1280.726" timestamp="1589797317476" />
     <state x="332" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.727@0.23.1280.727" timestamp="1594293369221" />
     <state x="332" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.728@0.23.1280.728" timestamp="1594585181071" />
