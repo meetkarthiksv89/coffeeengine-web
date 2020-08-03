@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 from flask import Flask, session, redirect, render_template, request, jsonify, flash, url_for
 from flask_session import Session
 from multiprocessing import Process
 import json
 import webbrowser
 import jinja2
+=======
+from flask import Flask, session, redirect, render_template, request, jsonify, flash
+from flask_session import Session
+
+
+>>>>>>> 84b2fbb4df670c40859f61c9938c9a5cedcd0cc7
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "new key"
 # Configure session to use filesystem
@@ -157,6 +164,7 @@ def index():
 
     return render_template("question.html")
 
+<<<<<<< HEAD
 @app.route('/test', methods=['GET','POST'])
 def test():
     if request.method == 'GET':
@@ -219,3 +227,7 @@ def tester():
 
 
 
+=======
+if __name__ == '__main__':
+    app.run()
+>>>>>>> 84b2fbb4df670c40859f61c9938c9a5cedcd0cc7
