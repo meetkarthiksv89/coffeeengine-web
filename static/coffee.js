@@ -62,8 +62,9 @@ $(function(){
 //    resultsContainer.innerHTML = `${arr}`;
      new_arr = JSON.stringify(arr);
      console.log(new_arr);
-      $.post("/test", new_arr);
-      window.location = "/result";
+     $.post("/test", new_arr);
+     window.location = "/result";
+
 
 
 
