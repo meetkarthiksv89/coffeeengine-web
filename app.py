@@ -1,12 +1,9 @@
-import time
-
 from flask import Flask, session, redirect, render_template, request, jsonify, flash, url_for
 from flask_session import Session
 from multiprocessing import Process
 import json
 import webbrowser
 import jinja2
-
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "new key"
 # Configure session to use filesystem
@@ -161,14 +158,14 @@ def index():
 
 @app.route('/test', methods=['GET','POST'])
 def test():
-    # if request.method == 'GET':
-    #     print("get")
-    # if request.method == 'POST':
-    #     print("post")
-    global result
-    result = request.get_json(force=True)
-    print(result)
-    # print(data)
+    if request.method == 'GET':
+        print("get")
+    if request.method == 'POST':
+        print("post")
+    global data
+
+    data = request.get_json(force=True)
+    print(data)
     # dataset=format(data)
     # model = LinearSVC().fit(tfidf_vectorizer_vectors, y_train)
     # new_complaint = dataset
@@ -194,10 +191,9 @@ def test():
 
 @app.route('/result', methods=['GET','POST'])
 def tester():
-    time.sleep(2)
     model = LinearSVC().fit(tfidf_vectorizer_vectors, y_train)
     print("got this far")
-    new_complaint = str(result)
+    new_complaint = str(data)
     print(new_complaint, "step2")
     new_complaints = ''.join(new_complaint)
     print(new_complaints, "step3")
@@ -216,7 +212,7 @@ def tester():
     #         return (redirect("https://www.google.co.uk"))
     # elif labelling == "['Grand Aroma']":
     #         return (redirect("https://www.google.co.uk"))
-    return render_template('response.html',labelling=labelling)
+    return render_template('response.html', labelling=labelling)
 
 
 
